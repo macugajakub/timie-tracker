@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "435a9750-8f9e-43f9-ba2e-e96f9b8f5ca9": {
+      "ProjectGuid": "435a9750-8f9e-43f9-ba2e-e96f9b8f5ca9",
+      "DisplayName": "TimeTracker.API",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
