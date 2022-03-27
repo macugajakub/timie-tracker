@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xk4h8q+MX3mAixPns7hsl6+1UO9LeKPgwnpI7b4zJlJV4aEGtP7e4GrqUhVLkGOaIS2bJpWIVcHCPB8ny+/KKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kacper\\source\\repos\\timie-tracker\\TimeTracker.Application\\TimeTracker.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kacper\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

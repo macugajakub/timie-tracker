@@ -1,0 +1,11 @@
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\bin\Debug\net5.0\TimeTracker.Domain.deps.json
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\bin\Debug\net5.0\TimeTracker.Domain.dll
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\bin\Debug\net5.0\ref\TimeTracker.Domain.dll
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\bin\Debug\net5.0\TimeTracker.Domain.pdb
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\TimeTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\TimeTracker.Domain.AssemblyInfoInputs.cache
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\TimeTracker.Domain.AssemblyInfo.cs
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\TimeTracker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\TimeTracker.Domain.dll
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\ref\TimeTracker.Domain.dll
+C:\Users\Kacper\source\repos\TimeTracker\TimeTracker.Domain\obj\Debug\net5.0\TimeTracker.Domain.pdb
