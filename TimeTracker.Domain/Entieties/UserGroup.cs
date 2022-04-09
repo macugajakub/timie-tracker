@@ -7,13 +7,10 @@ using System.Threading.Tasks;
 
 namespace TimeTracker.Domain.Entieties
 {
-    public class ApplicationsUser
+    public class UserGroup
     {
         [Key]
         public int Id { get; set; }
-        public string Login { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Password { get; set; }
+        public string GroupName { get; set; }
     }
 }

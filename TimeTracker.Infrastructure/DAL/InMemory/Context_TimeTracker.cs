@@ -13,11 +13,13 @@ namespace TimeTracker.Infrastructure.DAL.InMemory
     {
         public Context_TimeTracker(DbContextOptions<Context_TimeTracker> options) : base(options)
         {
-            TestEntities.AddTestData();
             Users.AddTestData();
+            UserGroup.AddTestData();
+            UserGroupDic.AddTestData();
             SaveChanges();
         }
-        public DbSet<TestEntity> TestEntities { get; set; }
-        public DbSet<User> Users { get; set; }
+        public DbSet<ApplicationsUser> Users { get; set; }
+        public DbSet<UserGroup> UserGroup { get; set; }
+        public DbSet<UserGroupDic> UserGroupDic { get; set; }
     }
 }

@@ -5,7 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TimeTracker.Application.DTO;
-using TimeTracker.Domain.Repository;
+using TimeTracker.Application.Abstraction.Repository;
+
 
 namespace TimeTracker.Application.User
 {

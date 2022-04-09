@@ -8,7 +8,7 @@ namespace TimeTracker.API
     {
         public AutoMapper()
         {
-            CreateMap<User, UserDto>();
+            CreateMap<ApplicationsUser, UserDto>();
         }
 
     }

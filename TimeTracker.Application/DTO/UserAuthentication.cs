@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace TimeTracker.Application.DTO
 {
-    public class TestEntityDto
+    public class UserAuthentcationRequest
     {
-        public int test { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
     }
 }
