@@ -12,6 +12,7 @@ namespace TimeTracker.Infrastructure
             IConfiguration configuration)
         {
             services.AddSingleton<ITestRepo, TestRepo>();
+            services.AddSingleton<IUserRepository, UserRepository>();
             return services;
         }
     }
