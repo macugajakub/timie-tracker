@@ -21,7 +21,7 @@ namespace TimeTracker.Application.Services
         public async Task<TestEntityDto> GetAsync()
         {
             var test = await _userRepository.GetValue();
-            return new TestEntityDto() { test = test.test };
+            return new TestEntityDto() { test = test.test};
         }
     }
 }

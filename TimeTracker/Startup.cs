@@ -11,6 +11,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using TimeTracker.Application;
+using TimeTracker.Infrastructure.DAL.InMemory;
+using Microsoft.EntityFrameworkCore;
 
 namespace TimeTracker
 {
@@ -26,6 +28,11 @@ namespace TimeTracker
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //services.AddDbContextPool<Context_TimeTracker>(options => options.UseInMemoryDatabase(databaseName: "Add_writes_to_database"));
+            var options = new DbContextOptionsBuilder<Context_TimeTracker>()
+                .UseInMemoryDatabase(databaseName: "Add_writes_to_database").Options;
+            var a = new Context_TimeTracker(options);
+            services.AddSingleton(a);
             services.AddApplication();
             services.AddInfrastructure(_configuration);
             services.AddControllersWithViews();

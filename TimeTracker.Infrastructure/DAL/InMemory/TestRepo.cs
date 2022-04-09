@@ -10,12 +10,17 @@ namespace TimeTracker.Infrastructure.DAL.InMemory
 {
     public class TestRepo : ITestRepo
     {
-        private readonly List<TestEntity> _users = new() { new TestEntity() { test = 1}, new TestEntity() { test = 2} };
 
-        
+        private readonly Context_TimeTracker _context;
+        public TestRepo(Context_TimeTracker context)
+        {
+            _context = context;
+        }
+
+
         public async Task<TestEntity> GetValue()
         {
-            return _users.FirstOrDefault(e => e.test == 2);   
+            return _context.TestEntities.FirstOrDefault(e => e.test == 21);   
         }
     }
 }

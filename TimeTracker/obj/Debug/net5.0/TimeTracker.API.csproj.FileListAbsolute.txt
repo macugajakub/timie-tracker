@@ -62,3 +62,6 @@ C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\obj\Debug\net5.0\TimeTrac
 C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\obj\Debug\net5.0\ref\TimeTracker.API.dll
 C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\obj\Debug\net5.0\TimeTracker.API.pdb
 C:\Users\Kacper\Source\Repos\timie-tracker\TimeTracker\obj\Debug\net5.0\TimeTracker.API.genruntimeconfig.cache
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
