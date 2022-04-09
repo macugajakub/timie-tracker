@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,15 +12,19 @@ namespace TimeTracker.Application.User
     public class UserQuery : IUserQuery
     {
         private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
 
-        public UserQuery(IUserRepository repo)
+
+        public UserQuery(IUserRepository repo, IMapper mapper)
         {
+            _mapper = mapper;
             _userRepository = repo;
         }
 
-        public Task<IEnumerable<Domain.Entieties.User>> GetAllUsers()
+        public async Task<IEnumerable<UserDto>> GetAllUsers()
         {
-            return _userRepository.GetAllUsers();
+            var user = await _userRepository.GetAllUsers();
+            return _mapper.Map<IEnumerable<UserDto>>(user);
         }
     }
 }

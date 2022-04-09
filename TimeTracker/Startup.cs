@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using TimeTracker.Application;
 using TimeTracker.Infrastructure.DAL.InMemory;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace TimeTracker
 {
@@ -33,6 +34,7 @@ namespace TimeTracker
                 .UseInMemoryDatabase(databaseName: "Add_writes_to_database").Options;
             var a = new Context_TimeTracker(options);
             services.AddSingleton(a);
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddApplication();
             services.AddInfrastructure(_configuration);
             services.AddControllersWithViews();
