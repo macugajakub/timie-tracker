@@ -18,6 +18,7 @@ namespace TimeTracker.Infrastructure.DAL.InMemory
 
         public UserRepository(IMapper mapper ,Context_TimeTracker context)
         {
+            _mapper = mapper;
             _context = context;
         }
 

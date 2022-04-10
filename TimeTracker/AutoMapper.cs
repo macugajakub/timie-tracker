@@ -9,7 +9,7 @@ namespace TimeTracker.API
         public AutoMapper()
         {
             CreateMap<ApplicationsUser, UserDto>();
-            CreateMap<UserGroupDto, UserGroup>();
+            CreateMap<UserGroup, UserGroupDto>();
         }
 
     }
