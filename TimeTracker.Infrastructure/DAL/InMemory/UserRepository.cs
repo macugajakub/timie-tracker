@@ -24,11 +24,13 @@ namespace TimeTracker.Infrastructure.DAL.InMemory
         public async Task<UserAuthentcationResponse> AuthenticateUser(UserAuthentcationRequest userAuthentcationRequest)
         {
             var user =await _context.Users.Where(e => e.Login.ToLower() == userAuthentcationRequest.Login.ToLower()).FirstOrDefaultAsync();
-            var correctPassword = user.Password == userAuthentcationRequest.Password;
-
-            if (user == null || !correctPassword)
+            if (user == null)
                 return new UserAuthentcationResponse();
 
+            var correctPassword = user.Password == userAuthentcationRequest.Password;
+            if(!correctPassword)
+                return new UserAuthentcationResponse();
+            
             //get groups 
             var userGroupsDic = _context.UserGroupDic.Where(e => e.UserId == user.Id).ToListAsync();
             var userGroups =  new List<UserGroupDto>();

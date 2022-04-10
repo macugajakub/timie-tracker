@@ -28,10 +28,5 @@ namespace TimeTracker.API.Controllers
             var result = await _query.AuthenticateUser(userAuthentcationRequest);
             return Ok(result);
         }
-
-        private ActionResult Ok(object a)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
