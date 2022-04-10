@@ -67,3 +67,8 @@ C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Microsof
 C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Kacper\source\repos\timie-tracker\TimeTracker\obj\Debug\net5.0\TimeTracker.API.MvcApplicationPartsAssemblyInfo.cs
