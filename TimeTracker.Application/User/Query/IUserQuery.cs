@@ -10,5 +10,6 @@ namespace TimeTracker.Application.User
     public interface IUserQuery
     {
         Task<IEnumerable<UserDto>> GetAllUsers();
+        Task<UserAuthentcationResponse> AuthenticateUser(UserAuthentcationRequest userAuthentcationRequest);
     }
 }

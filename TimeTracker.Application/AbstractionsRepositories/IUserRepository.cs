@@ -11,6 +11,6 @@ namespace TimeTracker.Application.Abstraction.Repository
     public interface IUserRepository
     {
         Task<IEnumerable<ApplicationsUser>> GetAllUsers();
-        Task<int> AuthenticateUser(UserAuthentcationRequest userAuthentcationRequest);
+        Task<UserAuthentcationResponse> AuthenticateUser(UserAuthentcationRequest userAuthentcationRequest);
     }
 }

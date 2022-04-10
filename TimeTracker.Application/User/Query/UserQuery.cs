@@ -22,6 +22,11 @@ namespace TimeTracker.Application.User
             _userRepository = repo;
         }
 
+        public async Task<UserAuthentcationResponse> AuthenticateUser(UserAuthentcationRequest userAuthentcationRequest)
+        {
+            return await _userRepository.AuthenticateUser(userAuthentcationRequest);
+        }
+
         public async Task<IEnumerable<UserDto>> GetAllUsers()
         {
             var user = await _userRepository.GetAllUsers();

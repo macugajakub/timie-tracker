@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
+using TimeTracker.Application.DTO;
 using TimeTracker.Application.User;
 
 namespace TimeTracker.API.Controllers
@@ -16,8 +18,20 @@ namespace TimeTracker.API.Controllers
         [HttpGet("All")]
         public async Task<ActionResult> GetAllUsers()
         {
-            var a = await _query.GetAllUsers();
-            return Ok(a);
+            var result = await _query.GetAllUsers();
+            return Ok(result);
+        }
+
+        [HttpPost("Login")]
+        public async Task<ActionResult> AuthenticateUser([FromBody] UserAuthentcationRequest userAuthentcationRequest)
+        {
+            var result = await _query.AuthenticateUser(userAuthentcationRequest);
+            return Ok(result);
+        }
+
+        private ActionResult Ok(object a)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -5,7 +5,27 @@
       "ProjectGuid": "435a9750-8f9e-43f9-ba2e-e96f9b8f5ca9",
       "DisplayName": "TimeTracker.API",
       "ColorIndex": 0
+    },
+    "0b23d6ee-8877-429a-8fe9-241cfd4cc3ea": {
+      "ProjectGuid": "0b23d6ee-8877-429a-8fe9-241cfd4cc3ea",
+      "DisplayName": "TimeTracker.Infrastructure",
+      "ColorIndex": 1
+    },
+    "4619b897-7f25-4fc8-bfa9-e061b3357c36": {
+      "ProjectGuid": "4619b897-7f25-4fc8-bfa9-e061b3357c36",
+      "DisplayName": "TimeTracker.Application",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "097ade95-a89b-4b24-92ea-a8f56f86c687": {
+      "ProjectGuid": "097ade95-a89b-4b24-92ea-a8f56f86c687",
+      "DisplayName": "TimeTracker.Domain",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }
